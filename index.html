@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Major Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="major_project.css">
+</head>
+<body align="center">
+    <div class="header">
+        <h3>Major Project</h1>
+        </div>
+    <br><br><br>
+    <h1 class="heading">Task Master</h1>
+    <h1 class="font">Enter Your Task and Choose A Priority</h1>
+    <br>
+    <input class="input_edit" id="name" type="text">
+    <br><br> 
+    <label for="priority">Choose a priority:</label>
+    <select class="btn" id="priority" name="priority">
+    <option value="h" >HIGH</option>
+    <option value="m">MEDIUM</option>
+    <option value="l">LOW</option>    
+    </select>
+    <input class="btn" type="submit" onclick="main()">
+    </p>
+    <div align="center" class="font" >
+    <p id="demohigh" class="red"></p>
+    <p id="demomid" class="amber"></p>
+    <p id="demolow" class="green"></p>
+    </div>
+    <br><br>
+    <p>
+    <button class="btn" onclick="highshow();"> show all high priority</button>
+    <button class="btn" onclick="midshow();"> show all medium priority</button>
+    <button class="btn" onclick="lowshow();">show all low priority</button> 
+    </p>    
+    <p id="dem" class="font_two"></p>
+    <div class="footer">
+    <h4 class="font_three">Made By Ankit Srivastava</h4>
+    </div>
+    <br><br>
+<script src="Major_project.js"></script>
+</body>
+</html>
